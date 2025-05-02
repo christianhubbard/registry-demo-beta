@@ -14,50 +14,54 @@ body {
 
 @layer base {
 	:root {
-  --background: 36 58% 97%; /* Light beige background */
-  --foreground: 0 0% 10%; /* Primary body text */
+  --background: 36 51.72% 94.31%;
+  --foreground: 0 0% 10%;
 
-  --card: 0 0% 100%; /* White cards */
+  --card: 60 33.33% 99.41%;
   --card-foreground: 0 0% 10%;
 
-  --popover: 0 0% 100%;
+  --popover: 60 33.33% 99.41%;
   --popover-foreground: 0 0% 10%;
 
-  --primary: 199 100% 85%; /* Light blue header */
-  --primary-foreground: 0 0% 10%;
+  --primary: 27.27 91.67% 4.71%;
+  --primary-foreground: 0 0% 100%;
 
-  --secondary: 30 100% 90%; /* Callout yellow (Simultaneous Enrollment) */
-  --secondary-foreground: 0 0% 10%;
+  --secondary: 0 0% 55.29%;
+  --secondary-foreground: 0 0% 100%;
 
-  --muted: 0 0% 90%; /* Soft gray dividers */
-  --muted-foreground: 0 0% 40%;
+  --accent: 217.19 64.71% 36.67%; /* tertiary/sapphire */
+  --accent-foreground: 0 0% 100%;
 
-  --accent: 24 86% 90%; /* Light orange callout (Avoid Surprises) */
-  --accent-foreground: 24 85% 40%;
+  --muted: 0 0% 90.98%;
+  --muted-foreground: 0 0% 36.08%;
 
-  --destructive: 0 85% 60%; /* Red, not directly used but for future alerts */
+  --destructive: 0 84.04% 36.86%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 0 0% 85%; /* Light gray border */
-  --input: 0 0% 85%;
-  --ring: 199 100% 85%;
+  --border: 0 0% 90.98%;
+  --input: 0 0% 55.29%;
+  --ring: 217.19 64.71% 36.67%;
 
-  --sidebar: 36 58% 97%;
-  --sidebar-foreground: 0 0% 10%;
-  --sidebar-primary: 199 100% 85%;
-  --sidebar-primary-foreground: 0 0% 10%;
-  --sidebar-accent: 24 86% 90%;
-  --sidebar-accent-foreground: 0 0% 10%;
-  --sidebar-border: 0 0% 85%;
-  --sidebar-ring: 199 100% 85%;
+  --sand: 46.15 24.53% 79.22%;
+  --peach: 30 83.02% 79.22%;
+  --lemon: 53.68 96.61% 76.86%;
+  --mint: 109.17 59.02% 76.08%;
+  --blush: 285.48 88.57% 86.27%;
+  --sky: 197.78 95.29% 83.33%;
 
-  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --redwood: 15.79 47.11% 52.55%;
+  --burgundy: 0 55.08% 36.67%;
+  --gold: 42.5 59.02% 47.84%;
+  --forest: 139.57 29.87% 30.2%;
+  --ruby: 319.41 77.27% 34.51%;
+  --sapphire: 217.19 64.71% 36.67%;
 
-  --radius: 0.5rem;
+  --font-sans: "Helveesti", "Helvetica Neue", Helvetica, Arimo, Arial, sans-serif;
+  --font-serif: "Arizona Flare", "Maitree", Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  /* Shadows (approximate soft shadows seen in cards and boxes) */
+  --radius: 3rem;
+
   --shadow-xs: 0 1px 2px 0 hsl(0 0% 0% / 0.03);
   --shadow-sm: 0 1px 3px 0 hsl(0 0% 0% / 0.05);
   --shadow: 0 1px 5px 0 hsl(0 0% 0% / 0.08);
@@ -77,34 +81,26 @@ body {
   --popover: 0 0% 14%;
   --popover-foreground: 0 0% 85%;
 
-  --primary: 199 100% 70%;
-  --primary-foreground: 0 0% 10%;
+  --primary: 27.27 91.67% 4.71%;
+  --primary-foreground: 0 0% 100%;
 
-  --secondary: 30 100% 75%;
-  --secondary-foreground: 0 0% 10%;
+  --secondary: 0 0% 55.29%;
+  --secondary-foreground: 0 0% 100%;
 
-  --muted: 0 0% 40%;
-  --muted-foreground: 0 0% 70%;
+  --accent: 217.19 64.71% 36.67%;
+  --accent-foreground: 0 0% 100%;
 
-  --accent: 24 86% 65%;
-  --accent-foreground: 0 0% 10%;
+  --muted: 0 0% 33.33%;
+  --muted-foreground: 0 0% 85%;
 
-  --destructive: 0 85% 60%;
+  --destructive: 0 84.04% 36.86%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 0 0% 30%;
-  --input: 0 0% 30%;
-  --ring: 199 100% 70%;
-
-  --sidebar: 0 0% 10%;
-  --sidebar-foreground: 0 0% 85%;
-  --sidebar-primary: 199 100% 70%;
-  --sidebar-primary-foreground: 0 0% 10%;
-  --sidebar-accent: 24 86% 65%;
-  --sidebar-accent-foreground: 0 0% 10%;
-  --sidebar-border: 0 0% 30%;
-  --sidebar-ring: 199 100% 70%;
+  --border: 0 0% 33.33%;
+  --input: 0 0% 55.29%;
+  --ring: 217.19 64.71% 36.67%;
 }
+
 
 }
 
