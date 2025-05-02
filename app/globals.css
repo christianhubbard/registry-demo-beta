@@ -14,91 +14,54 @@ body {
 
 @layer base {
 	:root {
-  --background: 36 51.72% 94.31%;
-  --foreground: 0 0% 10%;
+  --background: 36.0 51.72% 94.31%;
+  --foreground: 27.27 91.67% 4.71%;
 
-  --card: 60 33.33% 99.41%;
-  --card-foreground: 0 0% 10%;
+  --card: 60.0 33.33% 99.41%;
+  --card-foreground: 27.27 91.67% 4.71%;
 
-  --popover: 60 33.33% 99.41%;
-  --popover-foreground: 0 0% 10%;
+  --popover: 60.0 33.33% 99.41%;
+  --popover-foreground: 27.27 91.67% 4.71%;
 
   --primary: 27.27 91.67% 4.71%;
-  --primary-foreground: 0 0% 100%;
+  --primary-foreground: 0.0 0.0% 100.0%;
+  --primary-shade: 32.31 79.59% 9.61%;
 
-  --secondary: 0 0% 55.29%;
-  --secondary-foreground: 0 0% 100%;
+  --secondary: 0.0 0.0% 36.08%;
+  --secondary-foreground: 0.0 0.0% 100.0%;
 
-  --accent: 217.19 64.71% 36.67%; /* tertiary/sapphire */
-  --accent-foreground: 0 0% 100%;
+  --accent: 217.19 64.71% 36.67%;
+  --accent-foreground: 0.0 0.0% 100.0%;
 
-  --muted: 0 0% 90.98%;
-  --muted-foreground: 0 0% 36.08%;
+  --muted: 0.0 0.0% 90.98%;
+  --muted-foreground: 0.0 0.0% 36.08%;
 
-  --destructive: 0 84.04% 36.86%;
-  --destructive-foreground: 0 0% 100%;
+  --destructive: 0.0 84.04% 36.86%;
+  --destructive-foreground: 0.0 0.0% 100.0%;
 
-  --border: 0 0% 90.98%;
-  --input: 0 0% 55.29%;
+  --border: 0.0 0.0% 90.98%;
+  --input: 0.0 0.0% 36.08%;
   --ring: 217.19 64.71% 36.67%;
 
+  --danger: 0.0 84.04% 36.86%;
+  --danger-tint: 0.0 50.0% 87.45%;
+  --danger-engaged: 0.0 84.07% 22.16%;
+
+  --disabled: 0.0 0.0% 55.29%;
+  --disabled-tint: 0.0 0.0% 90.98%;
+  --disabled-shade: 0.0 0.0% 33.33%;
+
   --sand: 46.15 24.53% 79.22%;
-  --peach: 30 83.02% 79.22%;
+  --peach: 30.0 83.02% 79.22%;
   --lemon: 53.68 96.61% 76.86%;
   --mint: 109.17 59.02% 76.08%;
   --blush: 285.48 88.57% 86.27%;
   --sky: 197.78 95.29% 83.33%;
 
-  --redwood: 15.79 47.11% 52.55%;
-  --burgundy: 0 55.08% 36.67%;
-  --gold: 42.5 59.02% 47.84%;
-  --forest: 139.57 29.87% 30.2%;
-  --ruby: 319.41 77.27% 34.51%;
-  --sapphire: 217.19 64.71% 36.67%;
-
-  --font-sans: "Helveesti", "Helvetica Neue", Helvetica, Arimo, Arial, sans-serif;
-  --font-serif: "Arizona Flare", "Maitree", Georgia, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-sans: Helveesti, Helvetica Neue, Helvetica, Arimo, Arial, sans-serif;
+  --font-serif: Arizona Flare, Maitree, Georgia, serif;
 
   --radius: 3rem;
-
-  --shadow-xs: 0 1px 2px 0 hsl(0 0% 0% / 0.03);
-  --shadow-sm: 0 1px 3px 0 hsl(0 0% 0% / 0.05);
-  --shadow: 0 1px 5px 0 hsl(0 0% 0% / 0.08);
-  --shadow-md: 0 2px 8px -1px hsl(0 0% 0% / 0.1);
-  --shadow-lg: 0 4px 12px -2px hsl(0 0% 0% / 0.15);
-  --shadow-xl: 0 8px 20px -4px hsl(0 0% 0% / 0.18);
-  --shadow-2xl: 0 12px 28px -6px hsl(0 0% 0% / 0.25);
-}
-
-.dark {
-  --background: 0 0% 10%;
-  --foreground: 0 0% 85%;
-
-  --card: 0 0% 14%;
-  --card-foreground: 0 0% 85%;
-
-  --popover: 0 0% 14%;
-  --popover-foreground: 0 0% 85%;
-
-  --primary: 27.27 91.67% 4.71%;
-  --primary-foreground: 0 0% 100%;
-
-  --secondary: 0 0% 55.29%;
-  --secondary-foreground: 0 0% 100%;
-
-  --accent: 217.19 64.71% 36.67%;
-  --accent-foreground: 0 0% 100%;
-
-  --muted: 0 0% 33.33%;
-  --muted-foreground: 0 0% 85%;
-
-  --destructive: 0 84.04% 36.86%;
-  --destructive-foreground: 0 0% 100%;
-
-  --border: 0 0% 33.33%;
-  --input: 0 0% 55.29%;
-  --ring: 217.19 64.71% 36.67%;
 }
 
 
